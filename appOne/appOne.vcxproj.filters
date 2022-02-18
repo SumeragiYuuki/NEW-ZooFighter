@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{98b5593d-6477-4e95-a744-1da920628e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\manage">
+      <UniqueIdentifier>{c30c2a6a-5619-4ddc-8723-852427926e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\manage\scene">
+      <UniqueIdentifier>{cbc46423-f5c9-4816-a4ad-8bbcad982bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\manage\scene\derived">
+      <UniqueIdentifier>{ab5bf40a-ebb0-44d2-a0bd-c2472896a1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\container">
+      <UniqueIdentifier>{0a185b49-5d3f-4e86-bb6f-c596144aaef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\manage\map">
+      <UniqueIdentifier>{ea3348fa-8a89-465f-a3e8-0208fb0de436}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gmain.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="SCENE.cpp">
+      <Filter>game\manage\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_CLEAR.cpp">
+      <Filter>game\manage\scene\derived</Filter>
+    </ClCompile>
+    <ClCompile Include="STAGE.cpp">
+      <Filter>game\manage\scene\derived</Filter>
+    </ClCompile>
+    <ClCompile Include="TITLE.cpp">
+      <Filter>game\manage\scene\derived</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_OBJECT.cpp">
+      <Filter>game\manage</Filter>
+    </ClCompile>
+    <ClCompile Include="CONTAINER.cpp">
+      <Filter>game\container</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="MAP.cpp">
+      <Filter>game\manage\map</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SCENE.h">
+      <Filter>game\manage\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_CLEAR.h">
+      <Filter>game\manage\scene\derived</Filter>
+    </ClInclude>
+    <ClInclude Include="STAGE.h">
+      <Filter>game\manage\scene\derived</Filter>
+    </ClInclude>
+    <ClInclude Include="TITLE.h">
+      <Filter>game\manage\scene\derived</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_OBJECT.h">
+      <Filter>game\manage</Filter>
+    </ClInclude>
+    <ClInclude Include="CONTAINER.h">
+      <Filter>game\container</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="MAP.h">
+      <Filter>game\manage\map</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
